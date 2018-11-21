@@ -1,0 +1,15 @@
+{
+    "name": "xirion/mvc",
+    "description": "Model view controller component of xirion framework",
+    "type": "component",
+    "require": {
+        "xirion/dependency-injector": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kaktus",
+            "email": "kaktus@xirion.fr"
+        }
+    ]
+}
