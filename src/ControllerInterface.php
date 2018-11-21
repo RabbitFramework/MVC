@@ -9,4 +9,6 @@
 interface ControllerInterface
 {
 
+    public function loadModel(string $modelName);
+
 }

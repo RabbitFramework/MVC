@@ -10,10 +10,10 @@ namespace Xirion\MVC;
 
 use Xirion\DependencyInjector\DependencyContainer;
 
-class Controller
+class Controller implements \ControllerInterface
 {
 
-    public function loadModel($modelName) {
+    public function loadModel(string $modelName) {
         $this->$modelName = DependencyContainer::getInstance()->getClass($modelName);
     }
 
