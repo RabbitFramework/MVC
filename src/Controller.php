@@ -2,7 +2,7 @@
 
 namespace Rabbit\MVC;
 
-use Rabbit\DependencyInjector\DependencyContainer;
+use Rabbit\DependencyContainer\DependencyContainer;
 
 abstract class Controller implements ControllerInterface
 {

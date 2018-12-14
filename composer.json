@@ -4,7 +4,7 @@
     "type": "component",
     "license": "MIT",
     "require": {
-        "rabbitphp/dependency-injector": "*"
+        "rabbitphp/dependency-container": "*"
     },
     "authors": [
         {

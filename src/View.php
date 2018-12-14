@@ -8,7 +8,7 @@
 
 namespace Rabbit\MVC;
 
-use Rabbit\DependencyInjector\DependencyContainer;
+use Rabbit\DependencyContainer\DependencyContainer;
 
 class View implements ViewInterface
 {
