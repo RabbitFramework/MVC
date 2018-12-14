@@ -1,6 +1,6 @@
 {
-    "name": "xirion/mvc",
-    "description": "Model view controller component of xirion framework",
+    "name": "rabbitphp/mvc",
+    "description": "Model view controller component of rabbit framework",
     "type": "component",
     "license": "MIT",
     "require": {
