@@ -8,7 +8,7 @@
 
 namespace Rabbit\MVC;
 
-use Rabbit\DependencyContainer\DependencyContainer;
+use Rabbit\DependencyInjector\Container;
 
 class View implements ViewInterface
 {
@@ -18,8 +18,8 @@ class View implements ViewInterface
 
     public function __construct()
     {
-        DependencyContainer::getInstance()->addAlias(get_class($this), str_replace('View', '', get_class($this)));
-        $this->templatePath = dirname(DependencyContainer::getInstance()->get(get_class($this))->getInformation()->fileName).DIRECTORY_SEPARATOR.'template';
+        Container::getInstance()->addAlias(get_class($this), str_replace('View', '', get_class($this)));
+        $this->templatePath = dirname(Container::getInstance()->get(get_class($this))->getInformation()->fileName).DIRECTORY_SEPARATOR.'template';
     }
 
     public function setParameter(string $parameterName, $value) {
